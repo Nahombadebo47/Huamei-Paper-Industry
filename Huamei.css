@@ -46,7 +46,7 @@ samp {
 
 
 .background {
-    background-color: #A3CA77;
+    background-image: url(./Images/Background_3.png);
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -59,8 +59,9 @@ samp {
 
 .nav li a {
     text-decoration: none;
-    font-weight: bold;
-    color: #FFFFFF;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #038E11;
 }
 
 .nav {
@@ -109,4 +110,76 @@ samp {
 .home p:nth-of-type(2) {
     color: #FFFFFF;
     font-weight: 600;
+}
+
+.about-us {
+    background-image: url(./Images/Background_2.png);
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    line-height: 40px;
+}
+
+#aboutUs {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.about-us ul {
+    list-style: none;
+    text-align: center;
+    color: #038E11;
+    font-weight: bolder;
+}
+
+.about-us h3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.about-us p:first-of-type {
+    text-align: center;
+    color: #038E11;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-us p:nth-of-type(2) {
+    text-align: center;
+    color: #038E11;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.products {
+    background-image: url(./Images/Background_3.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.products h2 {
+    color: #FFFFFF;
+    font-weight: bolder;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.prodimg {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+
+.prodp {
+    display: flex;
+    justify-content: space-evenly;
+    color: #038E11;
+    font-weight: bolder;
+}
+
+footer {
+    background-image: url(./Images/Background_3.png);
+    background-position: center;
+    background-size: cover;
 }
