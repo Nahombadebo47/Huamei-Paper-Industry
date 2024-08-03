@@ -59,9 +59,14 @@ samp {
 
 .nav li a {
     text-decoration: none;
+    font-size: larger;
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #038E11;
+}
+
+.nav a:hover {
+    color: #013d07;
 }
 
 .nav {
@@ -93,7 +98,7 @@ samp {
     text-align: center;
     padding-top: 10%;
     font-family: "Pacifico", cursive;
-    font-size: xx-large;
+    font-size: 60px;
     font-weight: 800;
     color: #038E11;
 }
@@ -116,39 +121,64 @@ samp {
     background-image: url(./Images/Background_2.png);
     background-position: center;
     background-size: cover;
-    height: 750px;
+    height: 850px;
     line-height: 40px;
 }
 
 #aboutUs {
+    font-weight: bolder;
     color: #FFFFFF;
     text-align: center;
     padding-top: 10%;
+    animation: fadeIn 2s ease-in forwards;
+    animation-delay: 0.5s;
 }
 
 .about-us ul {
     list-style: none;
     text-align: center;
     color: #038E11;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
+    animation: fadeIn 2s ease-in forwards;
+    animation-delay: 0.5s;
 }
 
-.about-us h3 {
+.about-us h2 {
     text-align: center;
     color: #FFFFFF;
     font-weight: bolder;
+    animation: fadeIn 2s ease-in forwards;
+    animation-delay: 0.5s;
 }
 
 .about-us p:first-of-type {
     text-align: center;
     color: #038E11;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in forwards;
+    animation-delay: 0.5s;
 }
 
 .about-us p:nth-of-type(2) {
     text-align: center;
     color: #038E11;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in forwards;
+    /* Apply fade-in animation */
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .products {
@@ -180,6 +210,52 @@ samp {
 
 footer {
     background-image: url(./Images/Background_3.png);
-    background-position: center;
-    background-size: cover;
+    background-position: bottom;
+    background-size: contain;
+    height: fit-content;
+}
+
+#contactUs {
+    text-align: center;
+    padding-top: 5%;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+footer ul li {
+    list-style: none;
+    text-align: center;
+    color: #038E11;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+footer ul:nth-of-type(1) {
+    padding-top: 5%;
+}
+
+.socials {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    padding: 0px 70px 70px 0px;
+}
+
+.fimage-container {
+    padding-left: 10%;
+}
+
+footer img {
+    border-radius: 30%;
+    margin: 20px;
+
+}
+
+.socials i {
+    font-size: 2rem;
+}
+
+.socials i:hover {
+    color: #7d230c;
+    transform: scale(1.2);
 }
