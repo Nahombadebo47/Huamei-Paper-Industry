@@ -40,9 +40,9 @@ samp {
 }
 
 
-/* * {
+* {
     outline: 1px solid #000;
-} */
+}
 
 
 .background {
@@ -309,7 +309,15 @@ footer img {
     }
 
     .about-us ul {
-        padding-right: 10%;
+        display: inline;
+        font-size: small;
+        font-weight: bolder;
     }
+
+    .contacts li {
+        font-size: smaller;
+        text-align: left;
+    }
+
 
 }
