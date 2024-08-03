@@ -279,7 +279,7 @@ footer img {
     }
 
     .home {
-        background-size: cover;
+        background-size: contain;
         height: 150px;
     }
 
