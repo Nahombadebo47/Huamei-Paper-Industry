@@ -140,6 +140,7 @@ samp {
     color: #038E11;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
+    padding-right: 5%;
     animation: fadeIn 2s ease-in forwards;
     animation-delay: 0.5s;
 }
@@ -157,6 +158,7 @@ samp {
     color: #038E11;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    padding-top: 10%;
     animation: fadeIn 2s ease-in forwards;
     animation-delay: 0.5s;
 }
@@ -211,7 +213,8 @@ samp {
 footer {
     background-image: url(./Images/Background_3.png);
     background-position: bottom;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: fit-content;
 }
 
@@ -267,10 +270,12 @@ footer img {
         flex-direction: column;
         justify-content: center;
         padding-right: 10%;
+        font-size: small;
+        gap: 5px;
     }
 
     #home {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .home {
@@ -293,10 +298,18 @@ footer img {
         padding-left: 30%;
     }
 
+    .about-us p:first-of-type {
+        padding-top: 3%;
+    }
+
     .about-us p {
         padding-left: 5%;
         padding-right: 5%;
         font-size: smaller;
+    }
+
+    .about-us ul {
+        padding-right: 10%;
     }
 
 }
