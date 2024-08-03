@@ -326,4 +326,20 @@ footer img {
         background-size: contain;
         /* Ensure the image fits within the container */
     }
+
+    #home {
+        font-size: 40px;
+        /* Adjust font size for smaller screens */
+        padding-top: 5%;
+    }
+
+    .home p,
+    .about-us ul,
+    .about-us h2,
+    .about-us p,
+    .products h2,
+    footer ul li {
+        font-size: 1rem;
+        /* Adjust font size for readability on smaller screens */
+    }
 }
