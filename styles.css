@@ -47,6 +47,7 @@ samp {
     background-image: url(./Images/Background_3.png);
     background-position: center;
     background-size: cover;
+    /* Ensures the image covers the container */
     height: auto;
     /* Allow flexible height */
 }
@@ -95,6 +96,7 @@ samp {
 .home {
     background-image: url(./Images/background_1.jpeg);
     background-size: cover;
+    /* Ensures the image covers the container */
     background-position: center;
     background-repeat: no-repeat;
     height: auto;
@@ -128,6 +130,7 @@ samp {
     background-image: url(./Images/Background_2.png);
     background-position: center;
     background-size: cover;
+    /* Ensures the image covers the container */
     height: auto;
     /* Allow flexible height */
     padding: 2rem 1rem;
@@ -193,6 +196,7 @@ samp {
     background-image: url(./Images/Background_3.png);
     background-position: center;
     background-size: cover;
+    /* Ensures the image covers the container */
     height: auto;
     /* Allow flexible height */
     padding: 2rem 1rem;
@@ -225,7 +229,8 @@ samp {
 footer {
     background-image: url(./Images/Background_3.png);
     background-position: bottom;
-    background-size: contain;
+    background-size: cover;
+    /* Ensures the image covers the container */
     height: auto;
     /* Allow flexible height */
     padding: 2rem 1rem;
@@ -311,5 +316,14 @@ footer img {
         flex-wrap: wrap;
         /* Allow wrapping on small screens */
         padding: 1rem 0;
+    }
+
+    .background,
+    .home,
+    .about-us,
+    .products,
+    footer {
+        background-size: contain;
+        /* Ensure the image fits within the container */
     }
 }
