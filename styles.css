@@ -293,6 +293,9 @@ footer img {
         padding-left: 30%;
     }
 
-    .about-us p:first-of-type {}
+    .about-us p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 
 }
