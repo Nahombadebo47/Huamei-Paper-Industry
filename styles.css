@@ -145,6 +145,11 @@ samp {
     animation-delay: 0.5s;
 }
 
+.about-us ul li {
+    animation: fadeIn 2s ease-in forwards;
+    animation-delay: 0.5s;
+}
+
 .about-us h2 {
     text-align: center;
     color: #FFFFFF;
@@ -336,18 +341,6 @@ footer img {
         display: inline;
         font-size: small;
         font-weight: bolder;
-        animation: fadeIn 2s ease-in forwards;
-        animation-delay: 0.5s;
-    }
-
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-        }
-
-        to {
-            opacity: 1;
-        }
     }
 
     .contacts li {
