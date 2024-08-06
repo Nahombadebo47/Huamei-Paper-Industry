@@ -292,6 +292,10 @@ footer img {
     transform: scale(1.2);
 }
 
+#map {
+    width: 600;
+}
+
 @media (max-width: 767px) {
 
     .nav {
@@ -346,6 +350,10 @@ footer img {
     .contacts li {
         font-size: smaller;
         text-align: left;
+    }
+
+    footer #map {
+        width: 400px;
     }
 
 
