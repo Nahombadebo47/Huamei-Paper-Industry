@@ -188,8 +188,6 @@ samp {
     background-position: center;
     background-size: cover;
     height: 400px;
-    animation: slideIn 2s ease-in forwards;
-    animation-delay: 2s;
 }
 
 .products h2 {
