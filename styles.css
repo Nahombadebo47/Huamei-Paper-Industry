@@ -158,9 +158,9 @@ samp {
     color: #038E11;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    padding-top: 10%;
     animation: fadeIn 2s ease-in forwards;
     animation-delay: 0.5s;
+    padding-top: 6%;
 }
 
 .about-us p:nth-of-type(2) {
@@ -188,6 +188,8 @@ samp {
     background-position: center;
     background-size: cover;
     height: 400px;
+    animation: slideIn 2s ease-in forwards;
+    animation-delay: 2s;
 }
 
 .products h2 {
@@ -195,12 +197,16 @@ samp {
     font-weight: bolder;
     padding-top: 5%;
     text-align: center;
+    animation: slideIn 2s ease-in forwards;
+    animation-delay: 2s;
 }
 
 .prodimg {
     display: flex;
     justify-content: space-evenly;
     padding-top: 5%;
+    animation: slideIn 2s ease-in forwards;
+    animation-delay: 2s;
 }
 
 .prodp {
@@ -208,6 +214,20 @@ samp {
     justify-content: space-evenly;
     color: #038E11;
     font-weight: bolder;
+    animation: slideIn 2s ease-in forwards;
+    animation-delay: 2s;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 footer {
@@ -246,6 +266,12 @@ footer ul:nth-of-type(1) {
 
 .fimage-container {
     padding-left: 10%;
+}
+
+.fimage-container p {
+    color: black;
+    font-weight: 900;
+    padding-bottom: 5%;
 }
 
 footer img {
